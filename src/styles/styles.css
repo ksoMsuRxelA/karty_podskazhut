@@ -1,9 +1,31 @@
+:root {
+	--bg-color: #F3EFEC;
+	--accent-color: #FFAB6B;
+	--text-color: #312A4E;
+	--main-font: 'Raleway';
+	--accent-font: 'STIX Two Text';
+}
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
 
-html {
+.page {
+  min-inline-size: 360px;
   margin: 0;
 }
+
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}
+
