@@ -33,9 +33,6 @@ figure {
   margin: 0;
 }
 
-.header {
-}
-
 .header__menu {
   border-top: 1px solid currentColor;
   border-bottom: 1px solid currentColor;
