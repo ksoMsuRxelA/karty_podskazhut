@@ -37,40 +37,40 @@ figure {
 }
 
 .header__menu {
-	border-top: 1px solid currentColor;
-	border-bottom: 1px solid currentColor;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-block: 20px;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
 }
 
 .header__theme-toggler {
-	display: flex;
-	gap: 20px;
-	list-style: none;
-	padding: 0;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
 }
 
 .header__theme-button {
-	padding: 0;
-	background-color: transparent;
-	border: none;
-	font-size: 18px;
-	line-height: 1.04;
-	font-family: inherit;
-	color: currentColor;
-	cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  line-height: 1.04;
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
 }
 
 .header__theme-button:hover {
-	text-decoration: underline;
-	text-underline-offset: 3px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .header__theme-button_is-active {
-	font-weight: bold;
-	position: relative;
+  font-weight: bold;
+  position: relative;
 }
 
 .header__theme-button_is-active::after {
@@ -180,7 +180,7 @@ figure {
 }
 
 .content__card {
-	padding-inline: 10px;
+  padding-inline: 10px;
   aspect-ratio: 4 / 3;
   margin-block-start: 7%;
   display: flex;
@@ -200,7 +200,7 @@ figure {
 
 .colored-text {
   position: relative;
-	text-wrap: nowrap;
+  text-wrap: nowrap;
 }
 
 .colored-text::after {
@@ -215,12 +215,12 @@ figure {
 }
 
 .footer {
-	border-top: 1px solid currentColor;
-	margin-block-start: 10%;
-	padding: 2.5%;
+  border-top: 1px solid currentColor;
+  margin-block-start: 10%;
+  padding: 2.5%;
 }
 
 .footer__copyright {
-	font-size: 18px;
-	text-align: center;
+  font-size: 18px;
+  text-align: center;
 }
