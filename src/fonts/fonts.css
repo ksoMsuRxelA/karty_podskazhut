@@ -6,39 +6,38 @@
 }*/
 
 @font-face {
-	src: 
-		url(./Raleway-Regular.woff) format('woff'),
-		url(./Raleway-Regular.woff2) format('woff2');
-	font-family: 'Raleway';
-	font-weight: 400;
-	font-display: swap;
+  src:
+    url(Raleway-Regular.woff) format('woff'),
+    url(Raleway-Regular.woff2) format('woff2');
+  font-family: Raleway;
+  font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
-	src: 
-		url(./Raleway-Italic.woff) format('woff'),
-		url(./Raleway-Italic.woff2) format('woff2');
-	font-family: 'Raleway';
-	font-weight: 400;
-	font-style: italic;
-	font-display: swap;
+  src:
+    url(Raleway-Italic.woff) format('woff'),
+    url(Raleway-Italic.woff2) format('woff2');
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-	src: 
-		url(./Raleway-Bold.woff) format('woff'),
-		url(./Raleway-Bold.woff2) format('woff2');
-	font-family: 'Raleway';
-	font-weight: 700;
-	font-display: swap;
+  src:
+    url(Raleway-Bold.woff) format('woff'),
+    url(Raleway-Bold.woff2) format('woff2');
+  font-family: Raleway;
+  font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
-	src: 
-		url(./STIXTwoText-SemiBold.woff) format('woff'),
-		url(./STIXTwoText-SemiBold.woff2) format('woff2');
-	font-family: 'STIX Two Text';
-	font-weight: 600;
-	font-display: swap;
+  src:
+    url(STIXTwoText-SemiBold.woff) format('woff'),
+    url(STIXTwoText-SemiBold.woff2) format('woff2');
+  font-family: 'STIX Two Text';
+  font-weight: 600;
+  font-display: swap;
 }
-
