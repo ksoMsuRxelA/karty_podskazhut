@@ -12,6 +12,13 @@ function serve() {
   });
 }
 
+function scripts() {
+  return gulp
+    .src('./src/scripts/*.js', { encoding: false })
+    .pipe(gulp.dest('./dist/scripts/'))
+    .pipe(browserSync.reload({ stream: true }));
+}
+
 function fonts() {
   return gulp
     .src('./src/fonts/*.{woff,woff2}', { encoding: false })
@@ -49,13 +56,17 @@ function clean() {
   return del('./dist');
 }
 
-const build = gulp.series(clean, gulp.parallel(html, css, images, fonts));
+const build = gulp.series(
+  clean,
+  gulp.parallel(html, css, images, fonts, scripts)
+);
 
 function watchFiles() {
   gulp.watch(['./src/**/*.html'], html);
   gulp.watch(['./src/**/*.css'], css);
   gulp.watch(['./src/images/**/*.{jpg,png,svg,gif,ico,webp,avif}'], images);
   gulp.watch(['./src/fonts/*.{woff,woff2}'], fonts);
+  gulp.watch(['./src/scripts/*.js'], scripts);
 }
 
 const watchapp = gulp.parallel(build, watchFiles, serve);
