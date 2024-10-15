@@ -13,6 +13,21 @@
   /*outline: 1px red dashed;*/
 }
 
+a:focus,
+button:focus {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 1px solid var(--text-color);
+  outline-offset: 2px;
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
 .page {
   min-inline-size: 360px;
   margin: 0;
